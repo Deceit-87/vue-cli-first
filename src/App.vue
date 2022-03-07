@@ -8,15 +8,15 @@
 </template>
 
 <script>
+import JumboTron from './components/JumboTron.vue'
 import TitleFirst from './components/TitleFirst.vue'
-import JumboTron from './components/TitleFirst.vue'
 
 
 export default {
   name: 'App',
   components: {
-    JumboTron ,
-    TitleFirst
+    TitleFirst,
+    JumboTron,
   }
 }
 </script>
